@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  //- створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
+  function square(a,b) {
+      return a * b;
+  }
+  //- створити функцію яка обчислює та повертає площу кола з радіусом r
+  function radius(r, п) {
+      return (п*(r*r));
+  }
+  //- створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
+  function square(П, r, h) {
+      return ((П*П)*r*h);
+  }
+ // - створити функцію яка приймає масив та виводить кожен його елемент
+  function array ([]){
+      console.log(array);
+  }
+ // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
+  function paragrph(){
+      document.write('<p>lorem</p>');
+  }
+  paragrph
+ // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
+  function createUlWithLi3(){
+     document.write('<ul>') ;
+     document.write('<li>blablabla</li>')
+      document.write('<li>blablabla</li>')
+      document.write('<li>blablabla</li>')
+      document.write('</ul>') ;
+  }
+  createUlWithLi3
+  //- створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
+
+ // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+  function CreateList ([num, string, boolean]){
+      document.write('<li>[]</li>');
+  }
+  CreateList
+ // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
+  function array([]){
+      document.write({id}, {name},{age});
+  }
+  array
+ // - створити функцію яка повертає найменьше число з масиву
+  function MinNumber([]){
+      return Math.min([]);
+  }
+  MinNumber
+ // - створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
+  function sum([num1,num2,num3]){
+      return (num1+num2+num3);
+  }
+
+ // - створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
+  //Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
+  //- Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
+ // Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
+</script>
+
+</body>
+</html>
